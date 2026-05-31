@@ -49,3 +49,9 @@ pipeline{
 
     }
 }
+//push to docker hub
+// docker tag localImage username/repository:tag
+// docker push username/repository:tag
+// docker pull username/repository:tag
+// java -jar target/employee-app-4.0.0.jar see the jar file
+//mvn clean package to build the jar file
